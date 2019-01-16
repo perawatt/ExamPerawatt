@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>ตะกร้าของฉัน</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+    <h3>รายการสินค้า</h3>
+    <ion-list>
+      <ion-item *ngFor="let item of cart.products">
+        {{item.name}} {{item.price | number:'1.2-2'}} {{item.amount | number}} {{item.discount | number:'1.2-2'}} {{item.sum | number:'1.2-2'}}
+      </ion-item>
+    </ion-list>
+        <ion-item>
+          {{cart.sumNoDiscount}}
+        </ion-item>
+        <ion-item>
+          {{cart.discount}}
+        </ion-item>
+        <ion-item>
+          {{cart.sumWithDiscount}}
+        </ion-item>
+  </ion-content>

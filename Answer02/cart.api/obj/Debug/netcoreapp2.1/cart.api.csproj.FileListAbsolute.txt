@@ -1,0 +1,14 @@
+F:\Git\ExamPerawatt\Answer02\cart.api\bin\Debug\netcoreapp2.1\cart.api.deps.json
+F:\Git\ExamPerawatt\Answer02\cart.api\bin\Debug\netcoreapp2.1\cart.api.runtimeconfig.json
+F:\Git\ExamPerawatt\Answer02\cart.api\bin\Debug\netcoreapp2.1\cart.api.runtimeconfig.dev.json
+F:\Git\ExamPerawatt\Answer02\cart.api\bin\Debug\netcoreapp2.1\cart.api.dll
+F:\Git\ExamPerawatt\Answer02\cart.api\bin\Debug\netcoreapp2.1\cart.api.pdb
+F:\Git\ExamPerawatt\Answer02\cart.api\obj\Debug\netcoreapp2.1\cart.api.csproj.CoreCompileInputs.cache
+F:\Git\ExamPerawatt\Answer02\cart.api\obj\Debug\netcoreapp2.1\cart.api.RazorAssemblyInfo.cache
+F:\Git\ExamPerawatt\Answer02\cart.api\obj\Debug\netcoreapp2.1\cart.api.RazorAssemblyInfo.cs
+F:\Git\ExamPerawatt\Answer02\cart.api\obj\Debug\netcoreapp2.1\cart.api.AssemblyInfoInputs.cache
+F:\Git\ExamPerawatt\Answer02\cart.api\obj\Debug\netcoreapp2.1\cart.api.AssemblyInfo.cs
+F:\Git\ExamPerawatt\Answer02\cart.api\obj\Debug\netcoreapp2.1\cart.api.RazorTargetAssemblyInfo.cache
+F:\Git\ExamPerawatt\Answer02\cart.api\obj\Debug\netcoreapp2.1\cart.api.dll
+F:\Git\ExamPerawatt\Answer02\cart.api\obj\Debug\netcoreapp2.1\cart.api.pdb
+F:\Git\ExamPerawatt\Answer02\cart.api\obj\Debug\netcoreapp2.1\cart.api.csprojAssemblyReference.cache
