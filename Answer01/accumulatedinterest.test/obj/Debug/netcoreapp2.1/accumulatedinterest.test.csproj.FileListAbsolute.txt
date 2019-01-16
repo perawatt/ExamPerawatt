@@ -1,0 +1,17 @@
+F:\Git\ExamPerawatt\Answer01\accumulatedinterest.test\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+F:\Git\ExamPerawatt\Answer01\accumulatedinterest.test\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+F:\Git\ExamPerawatt\Answer01\accumulatedinterest.test\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+F:\Git\ExamPerawatt\Answer01\accumulatedinterest.test\bin\Debug\netcoreapp2.1\accumulatedinterest.test.deps.json
+F:\Git\ExamPerawatt\Answer01\accumulatedinterest.test\bin\Debug\netcoreapp2.1\accumulatedinterest.test.runtimeconfig.json
+F:\Git\ExamPerawatt\Answer01\accumulatedinterest.test\bin\Debug\netcoreapp2.1\accumulatedinterest.test.runtimeconfig.dev.json
+F:\Git\ExamPerawatt\Answer01\accumulatedinterest.test\bin\Debug\netcoreapp2.1\accumulatedinterest.test.dll
+F:\Git\ExamPerawatt\Answer01\accumulatedinterest.test\bin\Debug\netcoreapp2.1\accumulatedinterest.test.pdb
+F:\Git\ExamPerawatt\Answer01\accumulatedinterest.test\bin\Debug\netcoreapp2.1\accumulatedinterest.api.dll
+F:\Git\ExamPerawatt\Answer01\accumulatedinterest.test\bin\Debug\netcoreapp2.1\accumulatedinterest.api.pdb
+F:\Git\ExamPerawatt\Answer01\accumulatedinterest.test\obj\Debug\netcoreapp2.1\accumulatedinterest.test.csprojAssemblyReference.cache
+F:\Git\ExamPerawatt\Answer01\accumulatedinterest.test\obj\Debug\netcoreapp2.1\accumulatedinterest.test.csproj.CoreCompileInputs.cache
+F:\Git\ExamPerawatt\Answer01\accumulatedinterest.test\obj\Debug\netcoreapp2.1\accumulatedinterest.test.AssemblyInfoInputs.cache
+F:\Git\ExamPerawatt\Answer01\accumulatedinterest.test\obj\Debug\netcoreapp2.1\accumulatedinterest.test.AssemblyInfo.cs
+F:\Git\ExamPerawatt\Answer01\accumulatedinterest.test\obj\Debug\netcoreapp2.1\accumulatedinterest.test.csproj.CopyComplete
+F:\Git\ExamPerawatt\Answer01\accumulatedinterest.test\obj\Debug\netcoreapp2.1\accumulatedinterest.test.dll
+F:\Git\ExamPerawatt\Answer01\accumulatedinterest.test\obj\Debug\netcoreapp2.1\accumulatedinterest.test.pdb

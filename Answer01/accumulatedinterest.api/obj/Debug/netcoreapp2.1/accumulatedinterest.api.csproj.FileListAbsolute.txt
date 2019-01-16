@@ -1,0 +1,14 @@
+F:\Git\ExamPerawatt\Answer01\accumulatedinterest.api\bin\Debug\netcoreapp2.1\accumulatedinterest.api.deps.json
+F:\Git\ExamPerawatt\Answer01\accumulatedinterest.api\bin\Debug\netcoreapp2.1\accumulatedinterest.api.runtimeconfig.json
+F:\Git\ExamPerawatt\Answer01\accumulatedinterest.api\bin\Debug\netcoreapp2.1\accumulatedinterest.api.runtimeconfig.dev.json
+F:\Git\ExamPerawatt\Answer01\accumulatedinterest.api\bin\Debug\netcoreapp2.1\accumulatedinterest.api.dll
+F:\Git\ExamPerawatt\Answer01\accumulatedinterest.api\bin\Debug\netcoreapp2.1\accumulatedinterest.api.pdb
+F:\Git\ExamPerawatt\Answer01\accumulatedinterest.api\obj\Debug\netcoreapp2.1\accumulatedinterest.api.csprojAssemblyReference.cache
+F:\Git\ExamPerawatt\Answer01\accumulatedinterest.api\obj\Debug\netcoreapp2.1\accumulatedinterest.api.csproj.CoreCompileInputs.cache
+F:\Git\ExamPerawatt\Answer01\accumulatedinterest.api\obj\Debug\netcoreapp2.1\accumulatedinterest.api.RazorAssemblyInfo.cache
+F:\Git\ExamPerawatt\Answer01\accumulatedinterest.api\obj\Debug\netcoreapp2.1\accumulatedinterest.api.RazorAssemblyInfo.cs
+F:\Git\ExamPerawatt\Answer01\accumulatedinterest.api\obj\Debug\netcoreapp2.1\accumulatedinterest.api.AssemblyInfoInputs.cache
+F:\Git\ExamPerawatt\Answer01\accumulatedinterest.api\obj\Debug\netcoreapp2.1\accumulatedinterest.api.AssemblyInfo.cs
+F:\Git\ExamPerawatt\Answer01\accumulatedinterest.api\obj\Debug\netcoreapp2.1\accumulatedinterest.api.RazorTargetAssemblyInfo.cache
+F:\Git\ExamPerawatt\Answer01\accumulatedinterest.api\obj\Debug\netcoreapp2.1\accumulatedinterest.api.dll
+F:\Git\ExamPerawatt\Answer01\accumulatedinterest.api\obj\Debug\netcoreapp2.1\accumulatedinterest.api.pdb

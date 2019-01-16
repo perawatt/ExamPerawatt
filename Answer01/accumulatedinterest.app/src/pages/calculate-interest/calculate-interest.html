@@ -1,0 +1,62 @@
+<!--
+  Generated template for the CalculateInterestPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>โปรแกรม คำนวนดอกเบี้ย</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <form (ngSubmit)="getCalculate()" #itemForm="ngForm">
+    <ion-item>
+      <ion-label color="dark" floating>เงินต้น</ion-label>
+      <ion-input type="number" id="balance" [(ngModel)]="balance" name="balance" required></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label color="dark" floating>จำนวนปี</ion-label>
+      <ion-input type="number" id="year" [(ngModel)]="year" name="year" required></ion-input>
+    </ion-item>
+    <div class="text-center">
+      <button type="submit" color="secondary" ion-button full round [disabled]="!itemForm.form.valid">คำนวน</button>
+      <button type="button" color="light" ion-button full round (click)=clear()>ล้างข้อมูล</button>
+    </div>
+  </form>
+  <h3></h3>
+  <ion-grid>
+    <ion-row align-items-start>
+      <ion-col>
+        <h4>ปีที่</h4>
+      </ion-col>
+      <ion-col text-right>
+        <h4>คงค้าง</h4>
+      </ion-col>
+      <ion-col text-right>
+        <h4>ดอกเบี้ย</h4>
+      </ion-col>
+      <ion-col text-right>
+        <h4>ยอดที่ต้องชำระ</h4>
+      </ion-col>
+    </ion-row>
+    <ion-row align-items-start *ngFor="let item of items">
+      <ion-col>
+        {{item.year}}
+      </ion-col>
+      <ion-col text-right>
+        {{item.outstandingPerYear | number:'1.2-2'}}
+      </ion-col>
+      <ion-col text-right>
+        {{item.interestPerYear | number:'1.2-2'}} บาท
+      </ion-col>
+      <ion-col text-right>
+        {{item.summaryPerYear | number:'1.2-2'}} บาท
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

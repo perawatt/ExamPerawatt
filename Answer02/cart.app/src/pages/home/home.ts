@@ -15,7 +15,7 @@ export class HomePage {
 
   }
   ionViewWillEnter(){
-    this.httpClient.get("https://localhost:44324/api/cart/GetMyCart")
+    this.httpClient.get("https://localhost:44324/api/cart/GetAllProduct")
       .subscribe((data: any) => {
         console.log(JSON.stringify(data));
         this.cart = data;

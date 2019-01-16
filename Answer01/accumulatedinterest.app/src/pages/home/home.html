@@ -1,0 +1,18 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      โปรแกรม คำนวนดอกเบี้ย
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h3>ดอกเบี้ย(%)</h3>
+  <form #itemForm="ngForm">         
+        <ion-item>
+          <ion-label color="dark" floating>กรอกเปอร์เซ็นดอกเบี้ย</ion-label>
+          <ion-input type="number" id="percent" [(ngModel)]="percent" name="percent" required></ion-input>
+        </ion-item>          
+        <button type="submit" color="secondary" ion-button full round [disabled]="!itemForm.form.valid" (click)="gotoCalculate()">ถัดไป</button>
+  </form>
+</ion-content>
