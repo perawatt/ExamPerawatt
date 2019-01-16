@@ -13,7 +13,7 @@ namespace cart.api.Controllers
 
         public static List<Product> Products = new List<Product>();
 
-        public static Cart MyCart = new Cart();
+        public static Cart MyCart = new Cart { Products = new List<Product>() };
         
         [HttpGet]
         public ActionResult<IEnumerable<Product>> GetAllProduct()
@@ -28,11 +28,7 @@ namespace cart.api.Controllers
             {
                 return new Cart();
             }
-
-            MyCart.Discount = MyCart.Products.Sum(it => it.Discount);
-            MyCart.SumNoDiscount = MyCart.Products.Sum(it => it.Sum);
-            MyCart.SumWithDiscount = MyCart.SumNoDiscount - MyCart.Discount;
-            return MyCart;
+            return svc.CalculateMyCart(MyCart);
         }
 
         // POST api/values
@@ -46,9 +42,19 @@ namespace cart.api.Controllers
         [HttpPost]
         public void AddCart([FromBody] Product product)
         {
-            product.Sum = product.Price * product.Amount;
-            product.Discount = svc.CheckDiscount(product.Amount, product.Price);
-            MyCart.Products.Add(product);
+            var myProduct = MyCart.Products.FirstOrDefault(it => it.Name == product.Name);
+            if (product.Amount <= 0)
+            {
+                product.Amount = 1;
+            }
+            if (myProduct == null)
+            {
+                MyCart.Products.Add(product);
+            }
+            else
+            {
+                myProduct.Amount += product.Amount;
+            }
         }
 
         public class Cart

@@ -14,6 +14,7 @@
 </ion-header>
 
 <ion-content padding>
+    <h3>เพิ่มสินค้าเข้าระบบ</h3>
     <form (ngSubmit)="onSubmit()" #itemForm="ngForm">         
           <ion-item>
             <ion-label color="dark" floating>ชื่อสินค้า</ion-label>
@@ -24,8 +25,8 @@
               <ion-input type="number" id="price" [(ngModel)]="item.price" name="price" required></ion-input>
             </ion-item>
       <div class="text-center">                
-          <button type="submit" color="secondary" ion-button round [disabled]="!itemForm.form.valid">Confirm</button>
-          <button type="button" color="light" ion-button round (click)=clear()>Clear</button>
+          <button type="submit" color="secondary" ion-button round [disabled]="!itemForm.form.valid">เพิ่มเข้าระบบ</button>
+          <button type="button" color="light" ion-button round (click)=clear()>ล้างข้อมูล</button>
       </div>
     </form>
 </ion-content>

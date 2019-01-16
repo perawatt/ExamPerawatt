@@ -17,12 +17,10 @@ import { Product } from '../../models/product';
 })
 export class ProductsPage {
   items: any = [];
-  product: Product = new Product("","",0,0,0,0);
   constructor(public navCtrl: NavController, public navParams: NavParams,private httpClient: HttpClient) {
   }
 
   AddToCart(_product: Product){
-  this.product = _product;
   let option = { "headers": { "Content-Type": "application/json" } };
   this.httpClient.post("https://localhost:44324/api/cart/AddCart",
   _product,
