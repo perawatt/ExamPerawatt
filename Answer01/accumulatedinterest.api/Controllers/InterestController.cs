@@ -1,8 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
 
 namespace accumulatedinterest.api.Controllers
 {
@@ -14,7 +11,7 @@ namespace accumulatedinterest.api.Controllers
 
         // GET api/values/5
         [HttpGet("{percent}/{balance}/{year}")]
-        public List<Interest> Get(double percent, double balance,int year)
+        public List<Interest> Get(double percent, double balance, int year)
         {
             return svc.GetInterestPerYear(percent, balance, year);
         }

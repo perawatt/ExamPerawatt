@@ -9,12 +9,12 @@ import { Product } from '../../models/product';
   templateUrl: 'home.html'
 })
 export class HomePage {
-  products : Product[] = [];
-  cart: Cart = new Cart("",this.products,0,0,0);
-  constructor(public navCtrl: NavController,private httpClient: HttpClient) {
-
+  products: Product[] = [];
+  cart: Cart = new Cart("", this.products, 0, 0, 0);
+  constructor(public navCtrl: NavController, private httpClient: HttpClient) {
   }
-  ionViewWillEnter(){
+
+  ionViewWillEnter() {
     this.httpClient.get("https://localhost:44324/api/cart/GetAllProduct")
       .subscribe((data: any) => {
         console.log(JSON.stringify(data));

@@ -17,22 +17,22 @@ import { Product } from '../../models/product';
 })
 export class ProductsPage {
   items: any = [];
-  constructor(public navCtrl: NavController, public navParams: NavParams,private httpClient: HttpClient) {
+  constructor(public navCtrl: NavController, public navParams: NavParams, private httpClient: HttpClient) {
   }
 
-  AddToCart(_product: Product){
-  let option = { "headers": { "Content-Type": "application/json" } };
-  this.httpClient.post("https://localhost:44324/api/cart/AddCart",
-  _product,
-    option).subscribe((result: Product) => {        
-      console.log(result);
-      alert("เพิ่มสินค้าเข้าตะกร้าสำเร็จ");
-    }, error => {
-      console.log(error);
-    });
+  AddToCart(_product: Product) {
+    let option = { "headers": { "Content-Type": "application/json" } };
+    this.httpClient.post("https://localhost:44324/api/cart/AddCart",
+      _product,
+      option).subscribe((result: Product) => {
+        console.log(result);
+        alert("เพิ่มสินค้าเข้าตะกร้าสำเร็จ");
+      }, error => {
+        console.log(error);
+      });
   }
 
-  ionViewWillEnter(){
+  ionViewWillEnter() {
     this.httpClient.get("https://localhost:44324/api/cart/GetAllProduct")
       .subscribe((data: any) => {
         console.log(JSON.stringify(data));
@@ -46,5 +46,4 @@ export class ProductsPage {
   ionViewDidLoad() {
     console.log('ionViewDidLoad ProductsPage');
   }
-
 }

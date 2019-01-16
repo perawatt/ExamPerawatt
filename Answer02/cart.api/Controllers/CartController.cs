@@ -14,7 +14,7 @@ namespace cart.api.Controllers
         public static List<Product> Products = new List<Product>();
 
         public static Cart MyCart = new Cart { Products = new List<Product>() };
-        
+
         [HttpGet]
         public ActionResult<IEnumerable<Product>> GetAllProduct()
         {
@@ -24,7 +24,7 @@ namespace cart.api.Controllers
         [HttpGet]
         public ActionResult<Cart> GetMyCart()
         {
-            if(MyCart.Products == null || MyCart.Products.Count <= 0)
+            if (MyCart.Products == null || MyCart.Products.Count <= 0)
             {
                 return new Cart();
             }

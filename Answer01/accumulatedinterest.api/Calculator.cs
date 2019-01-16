@@ -12,7 +12,7 @@ namespace accumulatedinterest.api
             for (int i = 0; i < year; i++)
             {
                 double currentBalance = 0;
-                if(beforInterest.SummaryPerYear == 0)
+                if (beforInterest.SummaryPerYear == 0)
                 {
                     currentBalance = balance;
                 }
@@ -28,7 +28,7 @@ namespace accumulatedinterest.api
                     Year = i + 1,
                     OutstandingPerYear = currentBalance,
                     InterestPerYear = currentInterest,
-                    SummaryPerYear = currentSummaryPerYear,                    
+                    SummaryPerYear = currentSummaryPerYear,
                 };
                 interestList.Add(beforInterest);
             }

@@ -39,7 +39,6 @@
       </ion-col>
     </ion-row>
   </ion-grid>
-
   <h3>สรุปยอด</h3>
   <ion-grid>
     <ion-row align-items-start>
@@ -52,19 +51,19 @@
     </ion-row>
     <ion-row align-items-start>
       <ion-col>
-          ส่วนลด
+        ส่วนลด
       </ion-col>
       <ion-col text-right>
         {{cart.discount | number:'1.2-2'}} บาท
       </ion-col>
     </ion-row>
     <ion-row align-items-start>
-        <ion-col>
-            ยอดรวมหลังหักส่วนลด
-        </ion-col>
-        <ion-col text-right>
-          {{cart.sumWithDiscount | number:'1.2-2'}} บาท
-        </ion-col>
-      </ion-row>
+      <ion-col>
+        ยอดรวมหลังหักส่วนลด
+      </ion-col>
+      <ion-col text-right>
+        {{cart.sumWithDiscount | number:'1.2-2'}} บาท
+      </ion-col>
+    </ion-row>
   </ion-grid>
 </ion-content>
